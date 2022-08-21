@@ -1,0 +1,231 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background: #e5e5e5;
+  color: #757575;
+}
+header {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #2f303a;
+}
+a {
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.logo {
+  font-weight: 700;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+}
+.logo-web {
+  color: #2196f3;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+}
+.logo-studio {
+  color: #000000;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+}
+
+.navigation-link {
+  /* font-family: Roboto; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02;
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
+}
+/*  DOBRZE!*/
+.portfolio {
+  color: #2196f3;
+}
+/*  DOBRZE!*/
+.mail-header {
+  color: #757575;
+  font-size: 14px;
+}
+/*  DOBRZE!*/
+.telephone-header {
+  color: #757575;
+  font-size: 14px;
+}
+/*  DOBRZE!*/
+.mail-header:hover,
+.mail-header:focus {
+  color: #2196f3;
+}
+.telephone-header:hover,
+.telephone-header:focus {
+  color: #2196f3;
+}
+/* git */
+.address {
+  text-decoration: none;
+  background: #2f303a;
+}
+/* git */
+.address-linkf {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+}
+/* git */
+.street {
+  color: #ffffff;
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* git */
+.address-linkf:hover,
+.address-linkf:focus {
+  color: #2196f3;
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+/* DOBRZE, ZOSTAW */
+.solution-header {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-size: 44px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.35;
+}
+/* DOBRZE */
+.button-order {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  line-height: 1.88;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.mail {
+  color: #ffffff;
+}
+
+/* INDEX.HTML t- dotyczy tekstu i naglowków na glownej stronie index.html*/
+.text-header {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.text-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.header-work {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.header-team {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ourteam-person {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.ourteam-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
+/*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
+.header-por {
+  color: #212121;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.dexcription-por {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.button--menu {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.03;
+  line-height: 1.63;
+}
+.button-por > li :hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.studio-footer {
+  color: #ffffff;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+}
